@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    color: white;
+}
+.navbar{
+    /* border: 2px solid yellow; */
+    width: 100%;
+}
+.nav-logo{
+    width: 30px;
+    height: 30px;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+}
+.home-section{
+    height: 90vh;
+}
+.card {
+    max-width: 260px;
+    margin: auto;
+}
+
+.card-img-top {
+    
+    /* height: 180px; */
+    object-fit: cover;
+}
+.main-btn{
+    border: none;
+}
